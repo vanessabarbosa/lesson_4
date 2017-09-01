@@ -1,19 +1,38 @@
+/*
+COLORS:
+BLUE: #1E69FF
+PURPLE: #6C10E8
+LIGHT GREEN: #5AFF6E
+HOT PINK: #FF12AA
+TEAL: #10E8D7
+*/
+
+
 body {
    background-color: none;
+    color:#1E69FF;
 }
 
 #header {
     width:100%;
-        background-color: beige;
+        background-color: none;
+    min-height: 80px;
 }
 
 #header > h1 {
     margin:0;
+    text-align: center;
+    font-family:'Lato', sans-serif;
+    position:relative;
+    transform:translateY(50%)
 }
 
 #nav {
     width:100%;
-    background-color:aqua;
+    background-color:#1E69FF;
+    min-height:80px;
+    font-family: 'Lato', sans-serif;
+    height:auto;
 }
 
 .menu{
@@ -29,7 +48,7 @@ body {
 }
 
 #main-content-wrapper {
-    background-color:greenyellow;
+    background-color:white;
     width: 80%;
 }
 
