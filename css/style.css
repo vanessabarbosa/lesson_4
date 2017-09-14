@@ -11,18 +11,19 @@ TEAL: #10E8D7
 body {
    background-color: none;
     color:#1E69FF;
+    font-family: 'Lato', sans-serif;
 }
 
 #header {
     width:100%;
-        background-color: none;
+    background-color: none;
     min-height: 80px;
 }
 
 #header > h1 {
     margin:0;
     text-align: center;
-    font-family:'Lato', sans-serif;
+    /*font-family:'Lato', sans-serif;*/
     position:relative;
     transform:translateY(50%)
 }
@@ -31,7 +32,7 @@ body {
         background-color: #1E69FF;
     width: 100%;
     min-height: 80px;
-    font-family: 'Lato', sans-serif;
+    /*font-family: 'Lato', sans-serif;*/
     height: auto;
 }
 #nav > ul {
@@ -65,7 +66,7 @@ body {
 */
 #middle-wrapper-width {
     display:flex;
-    font-family: 'Lato', sans-serif;
+   /* font-family: 'Lato', sans-serif; */
     max-width: 960px;
     margin: 0 auto;
 }
@@ -89,7 +90,7 @@ body {
 }
 
 .image-content > h4 {
-    font-family: 'Lato', sans-serif;
+   /* font-family: 'Lato', sans-serif;*/
     font-weight:300;
     color: #FF12AA;
 }
@@ -127,7 +128,7 @@ body {
 #aside-content-wrapper { 
     background-color:#fff;
     width:35%
-    font-family: 'Lato', sans-serif;
+    /*font-family: 'Lato', sans-serif;*/
 }
 #aside-right {
     margin:0 50 px 0 8px;
@@ -157,20 +158,27 @@ body {
     position:relative;
 }
 #favorite-sites {
-    background-image: url(images/haha.jpeg)
+    background-image: url(image/bg.jpeg);
+    border-top:5px #004fb2 solid;
+    border-bottom:5px #004fb2 solid;
 }
 
-
-11:37 on vid 5
-
-
-
+#favorite-sites ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin:0;
+    padding: 40px;
+}
 
 footer {
-    background-color: coral;
-    margin: 0;
+    background-color: #fff;
+    text-align:center;
+    /*font-family: 'Lato', sans-serif;*/
+    min-height:100px;
 }
 
 footer > h1 {
     margin:0;
+    transform: translateY(50%);
 }
